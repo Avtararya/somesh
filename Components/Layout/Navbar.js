@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
     return (
         <div>
-            <div className="nav h-20 bg-footer-text pl-36 pt-7 font-light">
+            <div className="nav h-20 bg-footer-text pl-36 pt-7 text-lg">
                 <ul className="flex space-x-28 ">
                     <li className=" cursor-pointer font-bold">Home </li>
                     <li className=" cursor-pointer font-bold">About</li>

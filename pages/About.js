@@ -1,12 +1,11 @@
 import React from "react";
-import Footer from "../Components/Layout/Footer";
 import AboutSection from "../Components/AboutSection";
 import { getData } from '../data/section-data'
 export default function About() {
   const data = getData();
   console.log(data);
   return (
-    <div>
+    <div className="w-full">
       {data.map((a) => {
         return <AboutSection img={a.img} title={a.title} para={a.para} isLeft={a.isLeft} />
       })}
